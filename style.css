@@ -1,0 +1,43 @@
+
+body
+{  
+    background-color:  hsl(212, 45%, 89%);  
+}
+img{
+    border-radius: 12px;
+}
+ .container
+{
+   background-color: white; 
+   border-radius: 16px;
+   width: 330px;
+   height: 530px;
+   text-align: center;
+   padding: 14px;  
+} 
+@media only screen and (max-width: 4000px)
+{
+    body {
+        padding-left: 500px;
+        padding-top:  50px;
+    }
+
+}
+@media only screen and (max-width: 1000px)
+{
+    body
+        {
+         padding: 5px;
+        }
+}
+.a1{
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 1000;
+}
+.a2{
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: hsl(220, 15%, 55%);
+}
